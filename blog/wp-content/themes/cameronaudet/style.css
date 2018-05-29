@@ -1,0 +1,22 @@
+/*
+ Theme Name:   Cameron Audet
+ Theme URI:    http://cameronaudet.com/blog
+ Description:  Bootstrap 4 Child Theme
+ Author:       Cameron Audet
+ Author URI:   http://cameronaudet.com
+ Template:     wp-bootstrap-4
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, clean, simple, bootstrap, responsive-layout
+ Text Domain:  bootstrap-4-child
+*/
+.navbar-dark .navbar-nav .nav-link{
+	color:#ffffff;
+}
+#site-navigation > button{	
+	width:100%;
+}
+#wp-bp-posts-slider .carousel-caption {
+    background: rgba(0, 0, 0, 0.7);
+}
