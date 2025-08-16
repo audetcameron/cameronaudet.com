@@ -1,15 +1,5 @@
-# Cameronaudet.com Website
-## Headless Wordpress using VUEJS & Bootstrap
+# Vue 3 + Vite
 
-I wanted to learn the basics behind VUE so I could add it to my skill set.
+This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-After installing wordpress @ /blog I used vue.js to loop through my most six most current posts by accessing the wp-json api.
-```
-http://cameronaudet.com/blog/wp-json/wp/v2/
-```
-
-
-
-
-
-Haeder Photo by Sai Kiran Anagani on Unsplash
+Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
