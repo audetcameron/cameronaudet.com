@@ -14,10 +14,14 @@
   const copyright = computed(() => {
     return new Date().getFullYear() ;
   })
+
+  //weather api
+  import Weather from './components/Weather.vue'
 </script>
 
 <template>
   <header class="border-b-2 border-indigo-600 md:border-none">
+
 
     <div class=" w-full mx-auto  dark:bg-gray-200">
 
@@ -66,6 +70,18 @@
          <img src="@/assets/logo.svg" alt="Cameron Audet Logo" class="w-20 h-20">
          <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-gray-600">Cameron Audet</span>
        </a>
+         <Suspense>
+    <!-- Default slot for the async component -->
+    <template #default>
+        <Weather />
+    </template>
+
+    <!-- Fallback slot for loading state -->
+    <template #fallback>
+      <div>Loading...</div>
+    </template>
+  </Suspense>
+
      </div>
      <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
       <div>
