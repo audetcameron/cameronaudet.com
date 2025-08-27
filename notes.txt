@@ -1,0 +1,37 @@
+      - hr bar
+      <span class="w-20 h-2 bg-gray-800 dark:bg-white mb-12">
+      </span>
+
+
+
+
+
+      ClueJay / mysimplepetlab
+      ClueJay/Mysimplepetlab was a startup offering at home pet testing.
+
+      The Project:
+      Stack: Laravel, WordPress, Redis, Nova, Forge, AWS, Vue
+
+      Front-End: Commerce, Profile Management, Laravel
+      The client wanted to manage page copy via wordpress CMS on the front-end. The commerce was powered by woocomemrce but lived fetched into laravel via API conenctions between the systems.
+      Any user created in Laravel would also be created in WordPress leveraging laravel's observers system.
+
+      WordPress setup and custom functions to handle Auth and API CMS items for rendering in laravel.
+
+      Dashboard: VueJs/Laravel (pre inertia so it was all API endpoints)
+      Fetching product package data from the vendor each night we could coorelate kit actiations to user accounts using unique codes provided in the kits purchased.
+      The data about the kit was pulled from the vendor via a nightly Laravel schedule.
+      Customers would then activate a kit, create a pet profile, and send the sample into the lab for analasys.
+      Once a lab team memebr populated results using the custom Lab Dashbaord in the Laravel system, customers could then see their results in the dashboard. They could answer survey questions, print or send the results directly to vet partners.
+
+      Admin: Laravel Nova
+      The client wanted the ability to manage and troubleshoot user accounts via Laravel. I built a custom laravel nova administration panel leveraging spatie impersonation where their team could help customers troubleshoot their account data.
+      This included full permission management for various team members ... Admin, Customer Serivce etc.
+
+      Lab Dashboard: Laravel Nova
+      The team needed a way for their Lab Techs to leverage QR codes and coorelate samples to customers. I created a system in laravel nova where lab techs
+      could scan a bar code, populate lab test results and coorelate those results to the pet lab test to be shown on the customer dashbaord.
+
+      Cluejay was purcahsed from startup by mysimplepetlab a year after launch with a new round of funding.
+      Mysimplepetlab was shut down in 2025
+      https://web.archive.org/web/20250121090716/https://mysimplepetlab.com/
